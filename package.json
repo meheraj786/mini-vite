@@ -1,0 +1,22 @@
+{
+  "bin": "cli/index.js",
+  "name": "mini-vite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:mini-vite": "nodemon -w ../ --exec mini-vite",
+    "mini-vite": "mini-vite"
+  },
+  "dependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/plugin-transform-react-jsx": "^7.28.6",
+    "koa": "^3.1.2",
+    "koa-static": "^5.0.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
